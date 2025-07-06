@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+</head>
+<body>
+    <table border="5">
+        <thead>
+            <th colspan="2">registration Form</th>
+        </thead>
+        <tr>
+            <td><label for="fname">first name</label>
+            </td>
+            <td><input type="text" id="fname"></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last name</label>
+            </td>
+            <td><input type="text" id="lname"></td>
+        </tr>
+        <tr>
+            <td><label for="name">User name</label>
+            </td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="pass">Pass</label>
+            </td>
+            <td><input type="password" id="pass"></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Track</label>
+            </td>
+            <td><select >
+            <option value="full stack">Full Stack</option>
+            <option value="bi" selected>BI</option></select></td>
+        </tr>
+        <tr >
+            <td rowspan="2"><label for="gen">Gender</label></td>
+            <td><input type="radio"><label>Male</label></td>
+            
+        </tr>
+        <tr><td><input type="radio"><label>Female</label></td></tr>
+        <tr>
+            <td >Favorites</td>
+            <td><input type="checkbox"><label >football</label><input type="checkbox"><label >basketball</label>
+            <br>
+            <input type="checkbox"><label >games</label>
+            <br>
+            <input type="checkbox"><label >reading</label>
+            <input type="checkbox"><label >swimming</label>
+            <br>
+            <input type="checkbox"><label >Trave</label>
+            </td>
+        </tr>
+        <tr>
+            <td>description</td>
+            <td><textarea cols="20" rows="6"></textarea></td>
+        </tr>
+        <tr >
+            <td style="border: hidden;"></td>
+            <td><button value="Submit" style="margin-right: 5px;">Submit</button><button value="Reset">Reset</button></td>
+        </tr>
+        <tfoot>
+            <td colspan="2"><input type="file" name="choose file" ></td>
+        </tfoot>
+    </table>
+</body>
+</html>
